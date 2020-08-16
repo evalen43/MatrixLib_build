@@ -2,18 +2,6 @@
 	"entries" : 
 	[
 		{
-			"name" : "-DCMAKE_TOOLCHAIN_FILE",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
-				}
-			],
-			"type" : "STRING",
-			"value" : "C:/Git/repos/vcpkg/scripts/buildsystems/vcpkg.cmake"
-		},
-		{
 			"name" : "BUILD_SHARED_LIBS",
 			"properties" : 
 			[
@@ -35,7 +23,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/bin/Hostx86/x64/lib.exe"
+			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/bin/Hostx64/x64/lib.exe"
 		},
 		{
 			"name" : "CMAKE_CACHEFILE_DIR",
@@ -418,18 +406,6 @@
 			"value" : "/debug /INCREMENTAL"
 		},
 		{
-			"name" : "CMAKE_EXPORT_COMPILE_COMMANDS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
-				}
-			],
-			"type" : "BOOL",
-			"value" : "TRUE"
-		},
-		{
 			"name" : "CMAKE_EXTRA_GENERATOR",
 			"properties" : 
 			[
@@ -475,7 +451,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "x64"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_GENERATOR_TOOLSET",
@@ -487,7 +463,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "host=x86"
+			"value" : ""
 		},
 		{
 			"name" : "CMAKE_HOME_DIRECTORY",
@@ -527,7 +503,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/bin/Hostx86/x64/link.exe"
+			"value" : "C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.27.29110/bin/Hostx64/x64/link.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -1060,18 +1036,6 @@
 			],
 			"type" : "STATIC",
 			"value" : "C:/Git/repos/MathLibrary"
-		},
-		{
-			"name" : "VCPKG_BUILD",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "No help, variable specified on the command line."
-				}
-			],
-			"type" : "STRING",
-			"value" : "ON"
 		}
 	],
 	"kind" : "cache",
